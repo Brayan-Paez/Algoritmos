@@ -1,0 +1,54 @@
+body{
+    /*Margin = margen externa
+        Padding = margen interna*/
+    margin: 0;
+    padding: 0;
+    background: url("../img/imgbarcelona.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 110vh;
+    text-align: center;
+
+}
+
+
+h1{
+    color: rgb(23, 2, 255);
+    font-size: 45px;
+    margin-top: 100px;
+
+}
+
+h2{
+    color: rgb(4, 0, 255);
+    /*font-size= tamaño de fuente*/
+    font-size: 35px;
+
+}
+
+p{
+    color: antiquewhite;
+    font-size: 28px;
+    margin-bottom: 120px;
+
+}
+
+button{
+    padding: 10px 30px;
+    margin: 12px;
+    background-color: aquamarine;
+    border: 2px solid blue;
+    cursor: pointer;    
+    font-size: 22px;
+    color: rgb(0, 10, 196);
+    transition: .5s;
+}
+/*hover es un estado de los elementos que se activa que se activa al pasar el
+cursor sobre estos*/
+button:hover{
+    background: transparent;
+    color: rgb(254, 254, 254);
+    padding: 15px 50px;
+
+}
